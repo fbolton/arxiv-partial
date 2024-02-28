@@ -38,12 +38,12 @@ def main():
     # Inputs for Scrambler circuit
     print('Mask = ' + bin(n_mask))
     plain: int = 0b10110000101101001011010010010010 & n_mask
-    key: int   = 0b01001101000100010001011101001101 & n_mask
+    key: int   = 0b01001101000100010001011101001100 & n_mask
     print('Plaintext (binary) = ' + bin(plain))
     print('Encryption key = ' + bin(key))
 
     # Set up the scrambler
-    enc = scrambler.Scrambler()
+    enc = scrambler.ScramblerBasic()
     cipher = enc.scramble(n_index, plain, key)
     print('Cipher text = ' + bin(cipher))
     assert plain == enc.unscramble(n_index, cipher, key)
