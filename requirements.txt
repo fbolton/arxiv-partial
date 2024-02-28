@@ -1,0 +1,9 @@
+qiskit~=1.0.1
+matplotlib~=3.8.3
+numpy~=1.26.4
+
+# IBM Cloud backend 'ibm_cloud'
+qiskit-ibm-runtime
+
+# IBM Aer simulator backends
+qiskit-aer
