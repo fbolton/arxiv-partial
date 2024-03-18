@@ -1,6 +1,6 @@
 # Partial oracles and Grover's algorithm
 
-This repository provides a sample implementation of the algorithm described in _Beyond the black-box oracle: accelerated quantum search using partial oracles and Grover's algorithm_, which will be made available on [arxiv.org](https://arxiv.org).
+This repository provides a sample implementation of the algorithm described in _Accelerated quantum search using partial oracles and Grover's algorithm_, which will be made available on [arxiv.org](https://arxiv.org).
 
 ## Set-up and installation
 
